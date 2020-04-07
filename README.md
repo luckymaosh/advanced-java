@@ -17,7 +17,8 @@
 学习之前，先来看看 [Issues 讨论区](https://github.com/doocs/advanced-java/issues/9#issue-394275038)的技术面试官是怎么说的吧。本项目也欢迎各位开发者朋友到 [Issues 讨论区](https://github.com/doocs/advanced-java/issues)分享自己的一些想法和实践经验，参与或加入开源组织请看[这里](https://github.com/doocs/advanced-java/issues/61)，你也访问 [GitHub Page](https://doocs.github.io)  详细了解一下 Doocs。
 
 ## 高并发架构
-### [消息队列](/docs/high-concurrency/mq-interview.md)
+### [消息队列]
+- [消息队列介绍](/docs/high-concurrency/mq-interview.md)
 - [为什么使用消息队列？消息队列有什么优点和缺点？Kafka、ActiveMQ、RabbitMQ、RocketMQ 都有什么优点和缺点？](/docs/high-concurrency/why-mq.md)
 - [如何保证消息队列的高可用？](/docs/high-concurrency/how-to-ensure-high-availability-of-message-queues.md)
 - [如何保证消息不被重复消费？（如何保证消息消费的幂等性）](/docs/high-concurrency/how-to-ensure-that-messages-are-not-repeatedly-consumed.md)
@@ -26,12 +27,13 @@
 - [如何解决消息队列的延时以及过期失效问题？消息队列满了以后该怎么处理？有几百万消息持续积压几小时，说说怎么解决？](/docs/high-concurrency/mq-time-delay-and-expired-failure.md)
 - [如果让你写一个消息队列，该如何进行架构设计啊？说一下你的思路。](/docs/high-concurrency/mq-design.md)
 
-### [搜索引擎](/docs/high-concurrency/es-introduction.md)
+### [搜索引擎]
+- [搜索引擎简介](/docs/high-concurrency/es-introduction.md)
 - [es 的分布式架构原理能说一下么（es 是如何实现分布式的啊）？](/docs/high-concurrency/es-architecture.md)
 - [es 写入数据的工作原理是什么啊？es 查询数据的工作原理是什么啊？底层的 lucene 介绍一下呗？倒排索引了解吗？](/docs/high-concurrency/es-write-query-search.md)
 - [es 在数据量很大的情况下（数十亿级别）如何提高查询效率啊？](/docs/high-concurrency/es-optimizing-query-performance.md)
 - [es 生产集群的部署架构是什么？每个索引的数据量大概有多少？每个索引大概有多少个分片？](/docs/high-concurrency/es-production-cluster.md)
-
+- [es深度分页搜索机制](/docs/high-concurrency/es-deep-search.md)
 ### 缓存
 - [在项目中缓存是如何使用的？缓存如果使用不当会造成什么后果？](/docs/high-concurrency/why-cache.md)
 - [Redis 和 Memcached 有什么区别？Redis 的线程模型是什么？为什么单线程的 Redis 比多线程的 Memcached 效率要高得多？](/docs/high-concurrency/redis-single-thread-model.md)
@@ -58,7 +60,8 @@
 - [如何设计一个高并发系统？](/docs/high-concurrency/high-concurrency-design.md)
 
 ## 分布式系统
-### [面试连环炮](/docs/distributed-system/distributed-system-interview.md)
+### [面试连环炮]
+- [分布式系统面试](/docs/distributed-system/distributed-system-interview.md)
 ### 系统拆分
 - [为什么要进行系统拆分？如何进行系统拆分？拆分后不用 Dubbo 可以吗？](/docs/distributed-system/why-dubbo.md)
 
