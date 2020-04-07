@@ -17,7 +17,7 @@
 学习之前，先来看看 [Issues 讨论区](https://github.com/doocs/advanced-java/issues/9#issue-394275038)的技术面试官是怎么说的吧。本项目也欢迎各位开发者朋友到 [Issues 讨论区](https://github.com/doocs/advanced-java/issues)分享自己的一些想法和实践经验，参与或加入开源组织请看[这里](https://github.com/doocs/advanced-java/issues/61)，你也访问 [GitHub Page](https://doocs.github.io)  详细了解一下 Doocs。
 
 ## 高并发架构
-### [消息队列]
+### 消息队列
 - [消息队列介绍](/docs/high-concurrency/mq-interview.md)
 - [为什么使用消息队列？消息队列有什么优点和缺点？Kafka、ActiveMQ、RabbitMQ、RocketMQ 都有什么优点和缺点？](/docs/high-concurrency/why-mq.md)
 - [如何保证消息队列的高可用？](/docs/high-concurrency/how-to-ensure-high-availability-of-message-queues.md)
@@ -27,7 +27,7 @@
 - [如何解决消息队列的延时以及过期失效问题？消息队列满了以后该怎么处理？有几百万消息持续积压几小时，说说怎么解决？](/docs/high-concurrency/mq-time-delay-and-expired-failure.md)
 - [如果让你写一个消息队列，该如何进行架构设计啊？说一下你的思路。](/docs/high-concurrency/mq-design.md)
 
-### [搜索引擎]
+### 搜索引擎
 - [搜索引擎简介](/docs/high-concurrency/es-introduction.md)
 - [es 的分布式架构原理能说一下么（es 是如何实现分布式的啊）？](/docs/high-concurrency/es-architecture.md)
 - [es 写入数据的工作原理是什么啊？es 查询数据的工作原理是什么啊？底层的 lucene 介绍一下呗？倒排索引了解吗？](/docs/high-concurrency/es-write-query-search.md)
